@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Páginas Web para bibliotecas | DeepLib</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png" />
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon_io/favicon.ico" />
+  <link rel="manifest" href="assets/img/favicon_io/site.webmanifest" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="brand">DeepLib</a>
+    <button id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav id="mainNav" class="nav-links">
+      <a href="index.html">Inicio</a>
+      <div class="dropdown">
+        <button class="dropbtn" type="button">Soluciones ▾</button>
+        <div class="dropdown-content">
+          <a href="cursos.html">Cursos de capacitación</a>
+          <a href="microservicios.html">Microservicios de Koha</a>
+          <a href="web.html">Desarrollo de páginas web</a>
+          <a href="soporte.html">Soporte de TI para Koha</a>
+          <a href="personal.html">Bibliotecas personales</a>
+        </div>
+      </div>
+      <a href="about.html">Sobre DeepLib</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="min-height: 50vh; position: relative; overflow: hidden;">
+      <canvas id="metaballsCanvas" class="metaballs-canvas"></canvas>
+      <div class="hero-content" style="position: relative; z-index: 2;">
+        <h1>Desarrollo web para bibliotecas e instituciones</h1>
+        <p>Diseño moderno, responsivo y optimizado para visibilidad en motores de búsqueda.</p>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Tipos de sitio</h2>
+      <div class="cards-grid web-types">
+        <article class="card web-type web-type-personal">
+          <h3>Web personal</h3>
+          <p>Perfil profesional para investigadores, académicos y profesionistas.</p>
+          <div class="icon-shape icon-shape-personal">
+            <div class="shape-circle"></div>
+          </div>
+        </article>
+
+        <article class="card web-type web-type-institucional">
+          <h3>Web institucional</h3>
+          <p>Universidades e instituciones de educación.</p>
+          <div class="icon-shape icon-shape-institucional">
+            <div class="shape-building"></div>
+          </div>
+        </article>
+
+        <article class="card web-type web-type-biblioteca">
+          <h3>Web de biblioteca</h3>
+          <p>Sitios web para bibliotecas que destacan servicios, bases de datos, acceso al catálogo e información de contacto.</p>
+          <div class="icon-shape icon-shape-biblioteca">
+            <div class="shape-books"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <h2>Planes de Precio</h2>
+      <p class="pricing-subtitle">Elige el plan que mejor se adapte a tus necesidades</p>
+      
+      <div class="pricing-grid">
+        <!-- Paquete Económico -->
+        <article class="pricing-card pricing-economico">
+          <div class="pricing-header">
+            <h3>Paquete Económico</h3>
+            <p class="price">Desde $1,500 <span>MXN</span></p>
+            <p class="price-note">Un solo pago</p>
+          </div>
+          
+          <ul class="features-list">
+            <li>✓ Hasta 1 sitio web</li>
+            <li>✓ HTML, CSS y JavaScript</li>
+            <li>✓ Hosting en GitHub Pages</li>
+            <li>✓ Subdominio gratuito</li>
+            <li>✓ Hasta 3 secciones de información</li>
+            <li>✓ Formulario sin backend</li>
+            <li>✓ Diseño responsivo</li>
+          </ul>
+          
+          <a href="index.html#contacto" class="pricing-btn">Solicitar información</a>
+        </article>
+
+        <!-- Paquete Profesional -->
+        <article class="pricing-card pricing-profesional featured">
+          <div class="featured-badge">Más Popular</div>
+          <div class="pricing-header">
+            <h3>Paquete Profesional</h3>
+            <p class="price">Desde $2,500 <span>MXN</span></p>
+            <p class="price-note">Un solo pago</p>
+          </div>
+          
+          <ul class="features-list">
+            <li>✓ Hasta 1 sitio web</li>
+            <li>✓ 10 GB almacenamiento SSD</li>
+            <li>✓ Correo electrónico (1 año gratis)</li>
+            <li>✓ Certificado SSL gratuito (1 año gratis)</li>
+            <li>✓ Hasta 5 secciones de información</li>
+            <li>✓ Formulario con backend</li>
+            <li>✓ Integración con WhatsApp</li>
+          </ul>
+          
+          <a href="index.html#contacto" class="pricing-btn btn-featured">Contratar ahora</a>
+        </article>
+
+        <!-- Paquete Corporativo -->
+        <article class="pricing-card pricing-corporativo">
+          <div class="pricing-header">
+            <h3>Paquete Corporativo</h3>
+            <p class="price">Desde $4,500 <span>MXN</span></p>
+            <p class="price-note">Un solo pago</p>
+          </div>
+          
+          <ul class="features-list">
+            <li>✓ Hasta 8 secciones de información</li>
+            <li>✓ 20 GB almacenamiento SSD</li>
+            <li>✓ Correo electrónico (1 año gratis)</li>
+            <li>✓ Certificado SSL gratuito (1 año gratis)</li>
+            <li>✓ 1 base de datos incluida</li>
+            <li>✓ Google Analytics integrado</li>
+            <li>✓ Filtro y buscador avanzado</li>
+            <li>✓ Optimización SEO</li>
+            <li>✓ Respaldo</li>
+            <li>✓ Alertas de renovación</li>
+            <li>✓ Integración con WhatsApp</li>
+          </ul>
+          
+          <a href="index.html#contacto" class="pricing-btn">Solicitar información</a>
+        </article>
+      </div>
+
+      <!-- Notas importantes -->
+      <div class="pricing-notes">
+        <div class="note">
+          <h4>📌 Notas Importantes</h4>
+          <ul>
+            <li><strong>Dominio:</strong> Los paquetes Profesional y Corporativo incluyen dominio o subdominio y certificado SSL medinate el contratocon un provedor de hosting.</li>
+            <li><strong>Período de servicio:</strong> 12 meses contados a partir de la activación del hosting.</li>
+            <li><strong>Renovación:</strong> Al finalizar el período, puedes renovar por otros 12 meses realizando un "Pago de Renovación" por la misma cantidad.</li>
+            <li><strong>Precio del dominio:</strong> Depende de la extensión elegida (.com, .mx, etc.)</li>
+            <li><strong>Paquete personalizado:</strong> Si ninguno de nuestros planes se adapta a tus necesidades, ¡nos encantaría ayudarte!</li>
+          </ul>
+        </div>
+
+        <div class="note contact-note">
+          <h4>💼 Paquetes a Medida</h4>
+          <p>Si algún paquete no se adapta a lo que requieres o deseas un plan personalizado, <strong>ponte en contacto con nosotros</strong>. Las condiciones de pago pueden revisarse y adaptarse a través de una cotización especial de los servicios.</p>
+          <a href="index.html#contacto" class="contact-btn">Solicitar cotización personalizada</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 DeepLib. Todos los derechos reservados.</p>
+    <div class="footer-links">
+      <a href="index.html">Volver al inicio</a>
+      <a href="privacidad.html">Aviso de privacidad</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

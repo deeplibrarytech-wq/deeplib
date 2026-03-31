@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Microservicios Koha | DeepLib</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png" />
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon_io/favicon.ico" />
+  <link rel="manifest" href="assets/img/favicon_io/site.webmanifest" />
+  <script type="importmap">
+    {
+      "imports": {
+        "tweakpane": "https://esm.sh/tweakpane@4.0.3"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="brand">DeepLib</a>
+    <button id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav id="mainNav" class="nav-links">
+      <a href="index.html">Inicio</a>
+      <div class="dropdown">
+        <button class="dropbtn" type="button">Soluciones ▾</button>
+        <div class="dropdown-content">
+          <a href="cursos.html">Cursos de capacitación</a>
+          <a href="microservicios.html">Microservicios de Koha</a>
+          <a href="web.html">Desarrollo de páginas web</a>
+          <a href="soporte.html">Soporte de TI para Koha</a>
+          <a href="personal.html">Bibliotecas personales</a>
+        </div>
+      </div>
+      <a href="about.html">Sobre DeepLib</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="min-height: 50vh; position: relative; overflow: hidden;">
+      <canvas id="codingCanvas" class="coding-background"></canvas>
+      <div class="hero-content" style="position: relative; z-index: 2;">
+        <h1>Microservicios para Koha</h1>
+        <p>Innovación para su OPAC y panel staff con integración de IA y productividad.</p>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Proyectos listos para implementar</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">
+            <span class="material-symbols-outlined">slideshow</span>
+          </div>
+          <div class="project-content">
+            <h3>Carrusel de novedades</h3>
+            <p>Funcionalidad que extrae nuevos registros y los muestra dinámicamente en OPAC con animaciones fluidas.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">
+            <span class="material-symbols-outlined">verified_user</span>
+          </div>
+          <div class="project-content">
+            <h3>Constancia de no adeudo</h3>
+            <p>Automatización de generación y obtención de certificados de no adeudo para usuarios en tiempo real.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">
+            <span class="material-symbols-outlined">smart_toy</span>
+          </div>
+          <div class="project-content">
+            <h3>Bots IA generativa + RAG</h3>
+            <p>Chatbots orientados a asistir al personal bibliotecario en procesos de consulta y soporte técnico.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">
+            <span class="material-symbols-outlined">filter_alt</span>
+          </div>
+          <div class="project-content">
+            <h3>Filtros avanzados de búsqueda</h3>
+            <p>Funcionalidad para agregar filtros inteligentes en las cajas de búsqueda de OPAC y Staff panel.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon">
+            <span class="material-symbols-outlined">design_services</span>
+          </div>
+          <div class="project-content">
+            <h3>Rediseño de interfaz</h3>
+            <p>Diseños modernos para OPAC y Staff con mejores UX, componentes responsivos y accesibilidad mejorada.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="custom-services">
+      <div class="custom-services-container">
+        <h2>Desarrollos a su medida</h2>
+        <p>Contáctenos para discutir sus necesidades específicas y cómo podemos ayudar a mejorar su entorno Koha con microservicios personalizados, desarrollados según sus requerimientos exactos.</p>
+        <a href="index.html#contacto" class="custom-services-btn">Solicitar consultoría</a>
+      </div>
+    </section>
+
+  
+
+    <section class="proximamente-section">
+      <h2>Próximamente</h2>
+      <div class="proximamente-grid">
+        <article class="proximamente-card">
+          <div class="proximamente-icon">
+            <span class="material-symbols-outlined">auto_stories</span>
+          </div>
+          <h3>Asistente de IA para catalogación en Koha</h3>
+          <p>Herramienta inteligente que ayuda a automatizar y optimizar el proceso de catalogación de recursos bibliográficos.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 DeepLib. Todos los derechos reservados.</p>
+    <div class="footer-links">
+      <a href="index.html">Volver al inicio</a>
+      <a href="privacidad.html">Aviso de privacidad</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
